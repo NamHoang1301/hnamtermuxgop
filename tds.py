@@ -168,14 +168,14 @@ print("\033[1;35m╚════════════════════
 print("\033[1;34m⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦⏦")
 chon = int(input('\033[1;33mnhn\033[1;95m@\033[1;36mNamDev$ '))
 if chon == 1 :
-	exec(requests.get('https://raw.githubusercontent.com/namhoang131/namdevtool/main/tdstiktok.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/NamHoang1301/hnamtermuxtool/main/tdstiktok.py').text)
 elif chon == 2 :
-	exec(requests.get('https://raw.githubusercontent.com/namhoang131/namdevtool/main/tdspro5.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/NamHoang1301/hnamtermuxtool/main/tdspro5.py').text)
 elif chon == 3 :
-	exec(requests.get('hhttps://raw.githubusercontent.com/namhoang131/namdevtool/main/tdsfulljob.py').text)
+	exec(requests.get('hhttps://raw.githubusercontent.com/NamHoang1301/hnamtermuxtool/main/tdsfulljob.py').text)
 elif chon == 4 :
 	exec(requests.get('https://run.mocky.io/v3/4a3bafdd-49be-4e8f-af83-79b9fc1d2447').text)
 elif chon == 0 :
-	exec(requests.get('https://raw.githubusercontent.com/namhoang131/namdevgop/main/gop.py').text)
+	exec(requests.get('https://raw.githubusercontent.com/NamHoang1301/hnamkeytermux/main/gop.py').text)
 else :
   sys.exit('Vui Lòng Chọn Đúng Chế Độ')
